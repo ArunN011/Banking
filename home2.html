@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stackly Home 2</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+
+    <header id="header">
+
+
+  <!-- LEFT LOGO -->
+  <div class="logo">
+  <a href="home2.html">
+    <img src="images/logo10 (2) (2).webp" alt="Logo">
+  </a>
+</div>
+
+  <!-- CENTER NAV -->
+  <ul class="nav-links">
+
+    <li class="dropdown-parent">
+      <a href="#">Home ▾</a>
+      <ul class="dropdown">
+       
+        <li><a href="index.html">Home 1</a></li>
+      </ul>
+    </li>
+
+    <li><a href="about2.html">About Us</a></li>
+    <li><a href="services2.html">Services</a></li>
+    <li><a href="blogs2.html">Blogs</a></li>
+    <li><a href="contact2.html">Contact</a></li>
+
+  </ul>
+
+  <!-- RIGHT LOGIN -->
+  <a href="404page.html" class="login-btn">Login</a>
+
+  <!-- HAMBURGER -->
+  <div class="menu-toggle" onclick="openMenu()">☰</div>
+
+</header>
+
+
+
+<div class="mobile-menu" id="mobileMenu">
+
+  <div class="close-btn" onclick="closeMenu()">✕</div>
+
+  <ul>
+    <li class="mobile-dropdown">
+      <a href="#" onclick="toggleMobileDropdown(event)">Home ▾</a>
+      <ul class="mobile-submenu">
+        
+        <li><a href="index.html">Home 1</a></li>
+      </ul>
+    </li>
+
+    <li><a href="about2.html" onclick="closeMenu()">About Us</a></li>
+    <li><a href="services2.html" onclick="closeMenu()">Services</a></li>
+    <li><a href="blogs2.html" onclick="closeMenu()">Blogs</a></li>
+    <li><a href="contact2.html" onclick="closeMenu()">Contact</a></li>
+    <li><a href="404page.html" class="mobile-login">Login</a></li>
+  </ul>
+
+</div>
+<section class="hero" id="home">
+
+ <div class="hero-top">
+
+  <span class="hero-tag animate fade-up delay-1">
+    STACKLY PAYMENT SOLUTIONS
+  </span>
+
+  <h1 class="animate fade-up delay-2">
+    Fast, Reliable Payment Solutions<br>
+    for Today's Needs
+  </h1>
+
+</div>
+  <div class="hero-content">
+
+    <!-- LEFT -->
+    <div class="hero-left">
+      <p class="animate fade-up delay-3">
+        In today's fast-paced world, businesses and individuals demand
+        efficient and dependable payment solutions.
+      </p>
+<button class="hero-btn animate fade-up delay-4" onclick="window.location.href='404page.html'">
+  Sign Up For Free
+</button>
+
+      <div class="review-images animate fade-up delay-5">
+        <img src="images/n1 (1).webp">
+        <img src="images/n1 (2).webp">
+        <img src="images/n1 (3).webp">
+      </div>
+    </div>
+
+    <!-- MIDDLE IMAGE -->
+    <div class="hero-middle animate zoom-in delay-1">
+      <img src="images/h.webp" alt="">
+    </div>
+
+    <!-- RIGHT STATS -->
+    <div class="hero-right animate fade-up delay-6">
+      <div class="stat">
+        <h2>89M+</h2>
+        <p>Daily Transactions</p>
+      </div>
+
+      <div class="stat">
+        <h2>9%+</h2>
+        <p>Unlimited Cashback</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section class="features-section">
+
+  <div class="features-header">
+    <span class="feature-tag">CORE FEATURES</span>
+    <h2>Variety of Stackly Payment Methods</h2>
+  </div>
+
+  <div class="features-grid">
+
+    <div class="feature-card animate">
+      <div class="card-icon">
+        <img src="images/z1 (1).webp" alt="">
+      </div>
+      <div class="card-content">
+        <h3>Card</h3>
+        <p>Providing Convenient & Secure Payment Options for Need.</p>
+        <a href="404page.html">Read More →</a>
+      </div>
+    </div>
+
+    <div class="feature-card animate">
+      <div class="card-icon">
+        <img src="images/z1 (2).webp" alt="">
+      </div>
+      <div class="card-content">
+        <h3>FacePay24</h3>
+        <p>Simplifying Transactions with Facial Recognition.</p>
+        <a href="404page.html">Read More →</a>
+      </div>
+    </div>
+
+    <div class="feature-card animate">
+      <div class="card-icon">
+        <img src="images/z1 (3).webp" alt="">
+      </div>
+      <div class="card-content">
+        <h3>Visa Click to Pay</h3>
+        <p>Streaming Your Purchases with Seamless Transactions.</p>
+        <a href="404page.html">Read More →</a>
+      </div>
+    </div>
+
+    <div class="feature-card animate">
+      <div class="card-icon">
+        <img src="images/z1 (4).webp" alt="">
+      </div>
+      <div class="card-content">
+        <h3>PrivatPay</h3>
+        <p>Your Trusted Partner in Secure and Seamless Transactions.</p>
+        <a href="404page.html">Read More →</a>
+      </div>
+    </div>
+
+    <!-- Row 2 -->
+
+    <div class="feature-card animate">
+      <div class="card-icon">
+        <img src="images/z1 (5).webp" alt="">
+      </div>
+      <div class="card-content">
+        <h3>Google Pay</h3>
+        <p>Enhancing Efficiency in Your Financial Transactions.</p>
+        <a href="404page.html">Read More →</a>
+      </div>
+    </div>
+
+    <div class="feature-card animate">
+      <div class="card-icon">
+        <img src="images/z1 (6).webp" alt="">
+      </div>
+      <div class="card-content">
+        <h3>Apple Pay</h3>
+        <p>Seamlessly Streaming Your Financial Transactions.</p>
+        <a href="404page.html">Read More →</a>
+      </div>
+    </div>
+
+    <div class="feature-card animate">
+      <div class="card-icon">
+        <img src="images/z1 (7).webp" alt="">
+      </div>
+      <div class="card-content">
+        <h3>QR</h3>
+        <p>Instant Transactions with a Simple Scan Made Possible.</p>
+        <a href="404page.html">Read More →</a>
+      </div>
+    </div>
+
+    <div class="feature-card animate">
+      <div class="card-icon">
+        <img src="images/z1 (8).webp" alt="">
+      </div>
+      <div class="card-content">
+        <h3>Payment by Parts</h3>
+        <p>Breakdown Your Purchases into Manageable Parts.</p>
+        <a href="404page.html">Read More →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="connect-section">
+
+  <div class="connect-header">
+    <span class="connect-tag">CONNECT PROCESS</span>
+    <h2>How to Connect Stackly</h2>
+  </div>
+
+  <div class="connect-flow">
+
+    <!-- Top Logo Box -->
+    <div class="connect-top animate">
+      <img src="images/logo10 (2) (2).webp" alt="Stackly Logo">
+    </div>
+
+    <!-- Lines -->
+    <div class="connect-lines"></div>
+
+    <!-- Bottom Boxes -->
+    <div class="connect-steps">
+
+      <div class="step-box animate">
+        <span class="step-number">1</span>
+        <p>Create a New Merchant<br>Account in Stackly</p>
+      </div>
+
+      <div class="step-box animate">
+        <span class="step-number">2</span>
+        <p>Activate merchant four<br>activation steps</p>
+      </div>
+
+      <div class="step-box animate">
+        <span class="step-number">3</span>
+        <p>Optimize the integration<br>method with Stackly</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+<section class="industry-section">
+
+  <div class="industry-container">
+
+    <!-- LEFT SIDE -->
+    <div class="industry-left">
+
+      <span class="industry-tag">PAYMENT SOLUTION</span>
+      <h2>Powering Every Industry.</h2>
+
+      <div class="accordion">
+
+        <!-- Item 1 -->
+        <div class="accordion-item active">
+          <button class="accordion-header">
+            <div class="title-wrap">
+              <div class="icon-box">🛒</div>
+              <span>E-commerce</span>
+            </div>
+            <span class="arrow">&#9662;</span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Stackly empowers e-commerce businesses with secure payments,
+              real-time transactions, and seamless checkout solutions worldwide.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <div class="title-wrap">
+              <div class="icon-box">🎓</div>
+              <span>Education</span>
+            </div>
+            <span class="arrow">&#9662;</span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Stackly simplifies fee collection, digital payments,
+              and subscription systems for educational institutions.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <div class="title-wrap">
+              <div class="icon-box">💻</div>
+              <span>SaaS</span>
+            </div>
+            <span class="arrow">&#9662;</span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Stackly integrates with SaaS platforms for recurring billing,
+              global transactions, and subscription management.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <div class="title-wrap">
+              <div class="icon-box">👨‍💼</div>
+              <span>Freelance</span>
+            </div>
+            <span class="arrow">&#9662;</span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Stackly enables freelancers to receive cross-border
+              payments securely with instant payouts and easy invoicing.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="industry-right">
+
+      <div class="card-wrapper">
+
+        <div class="glow-circle"></div>
+
+     
+          <img src="images/hr.webp" alt="Stackly Card">
+      
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+
+<section class="why-section">
+
+  <div class="why-container">
+
+    <!-- Small Green Tag -->
+    <span class="why-tag">WHY CHOOSE STACKLY</span>
+
+    <h2>Elevate Your Payments with Us</h2>
+
+    <div class="why-features">
+
+      <!-- Feature 1 -->
+      <div class="feature-box">
+        
+          <!-- ADD YOUR ICON HERE -->
+          <img src="images/j1 (1).webp" alt="Fast & Secure">
+        
+        <h3>Fast & Secure</h3>
+        <p>
+          Stackly prioritizes speed and security in every
+          transaction to ensure seamless and protected payments.
+        </p>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="feature-box">
+       
+          <!-- ADD YOUR ICON HERE -->
+          <img src="images/j1 (2).webp" alt="24/7 Support">
+       
+        <h3>24/7 Live Support</h3>
+        <p>
+          Our dedicated support team is available 24/7
+          to assist you with payment and integration needs.
+        </p>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="feature-box">
+        
+          <!-- ADD YOUR ICON HERE -->
+          <img src="images/j1 (3).webp" alt="Custom API">
+    
+        <h3>Targeted Built API</h3>
+        <p>
+          Stackly provides tailored API solutions designed
+          specifically to meet your business requirements.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section class="pricing-section">
+
+  <div class="pricing-container">
+
+    <span class="pricing-tag">STACKLY TARIFFS</span>
+    <h2>Clear Pricing for Stackly Transactions</h2>
+
+    <div class="pricing-wrapper">
+
+      <div class="pricing-cards">
+
+        <!-- LEFT CARD -->
+        <div class="pricing-card general-card">
+          <div class="card-left">
+            <h3>General Plan</h3>
+            <p>
+              Our commission is deducted before your
+              payment reaches your Stackly account.
+            </p>
+
+            <ul>
+              <li>Next Business Day Settlement</li>
+              <li>Secure Merchant Dashboard Access</li>
+              <li>Dedicated Stackly Support</li>
+            </ul>
+
+            <a href="404page.html" class="btn-green">Connect Now ↗</a>
+          </div>
+
+          <div class="card-right">
+            <div class="price-box">1.9%</div>
+            <div class="info-box">Everything you need to manage payments</div>
+            <div class="info-box">Stackly mobile app access</div>
+            <div class="info-box">No hidden or monthly fees</div>
+          </div>
+        </div>
+
+        <!-- RIGHT CARD -->
+        <div class="pricing-card individual-card">
+          <div class="card-left">
+            <h3>Individual Plan</h3>
+            <p>
+              Apply via Stackly support to reduce
+              your transaction tariff.
+            </p>
+
+            <ul>
+              <li>Optimized Quick Deposits</li>
+              <li>Reduced rates for high turnover</li>
+              <li>Flexible integration options</li>
+               <li>Stackly Banking options</li>
+            </ul>
+
+            <a href="404page.html" class="btn-black">Apply Now ↗</a>
+          </div>
+
+          <div class="card-right">
+            <div class="price-box black">Charity 0%</div>
+            <div class="price-box black">Housing Utilities 1%</div>
+            <div class="price-box black">Online Services 2%</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+
+
+<!-- ================= CTA SECTION (BLACK) ================= -->
+
+<section class="cta-section reveal">
+  <div class="cta-container">
+    <h2>Ready to level up your payment process?</h2>
+    <a href="404page.html" class="cta-btn">Sign Up Now →</a>
+  </div>
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer-wrapper">
+
+  <div class="footer-box reveal">
+
+
+    <!-- ✅ ADD LOGO HERE -->
+    <div class="footer-brand">
+      <a href="home2.html">
+        <img src="images/logo10 (2).webp" alt="Stackly Logo">
+      </a>
+      <p class="footer-tagline">
+        Modern Digital Banking & Payment Solutions
+      </p>
+    </div>
+
+    <div class="footer-columns">
+
+      <!-- Company -->
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="404page.html">About Stackly</a></li>
+          <li><a href="404page.html">Careers</a></li>
+          <li><a href="404page.html">Terms of Use</a></li>
+          <li><a href="404page.html">Privacy Policy</a></li>
+          <li><a href="404page.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Accept Payments -->
+      <div class="footer-col">
+        <h4>Accept Payments</h4>
+        <ul>
+          <li><a href="404page.html">Stackly POS</a></li>
+          <li><a href="404page.html">Payment Pages</a></li>
+          <li><a href="404page.html">Payment Links</a></li>
+          <li><a href="404page.html">QR Codes</a></li>
+          <li><a href="404page.html">Payment Gateway</a></li>
+        </ul>
+      </div>
+
+      <!-- Banking -->
+      <div class="footer-col">
+        <h4>Stackly Banking</h4>
+        <ul>
+          <li><a href="404page.html">Smart Collect</a></li>
+          <li><a href="404page.html">Source to Pay</a></li>
+          <li><a href="404page.html">Current Accounts</a></li>
+          <li><a href="404page.html">Payout Links</a></li>
+          <li><a href="404page.html">Corporate Cards</a></li>
+        </ul>
+      </div>
+
+      <!-- Download -->
+      <div class="footer-col">
+        <h4>Download App</h4>
+        <p>Available on all platforms</p>
+        <br>
+        <div class="app-buttons">
+          <img src="images/v1 (1).webp" alt="">
+          <br>
+          <img src="images/v1 (2).webp" alt="">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Row -->
+    <div class="footer-bottom">
+      <p>© 2026 Stackly. All rights reserved.</p>
+
+      <div class="social-icons">
+        <!-- Facebook -->
+        <a href="404page.html">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07c0 5.02 3.66 9.18 8.44 9.93v-7.02H7.9v-2.91h2.54V9.41c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.19 2.23.19v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.77l-.44 2.91h-2.33V22c4.78-.75 8.44-4.91 8.44-9.93z"/>
+          </svg>
+        </a>
+
+        <!-- Twitter -->
+        <a href="404page.html">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.244 2H21l-6.56 7.5L22 22h-6.828l-4.95-6.31L4.8 22H2l7.02-8.02L2 2h6.828l4.47 5.73L18.244 2z"/>
+          </svg>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="404page.html">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M4.98 3.5C4.98 4.88 3.87 6 2.49 6S0 4.88 0 3.5 1.11 1 2.49 1s2.49 1.12 2.49 2.5zM.22 8h4.54v14H.22V8zM8.09 8h4.35v1.92h.06c.61-1.15 2.1-2.36 4.32-2.36 4.62 0 5.47 3.04 5.47 6.99V22h-4.54v-6.76c0-1.61-.03-3.68-2.24-3.68-2.24 0-2.58 1.75-2.58 3.56V22H8.09V8z"/>
+          </svg>
+        </a>
+
+        <!-- LinkedIn -->
+<a href="404page.html" aria-label="LinkedIn">
+  <svg viewBox="0 0 24 24" fill="currentColor">
+    <path d="M19 0h-14C2.239 0 1 1.239 1 2.766v18.468C1 22.761 2.239 24 5 24h14c2.761 0 5-1.239 5-2.766V2.766C24 1.239 21.761 0 19 0zM8 20H5V9h3v11zM6.5 7.732c-.966 0-1.75-.785-1.75-1.75S5.534 4.232 6.5 4.232 8.25 5.017 8.25 5.982 7.466 7.732 6.5 7.732zM20 20h-3v-5.604c0-1.337-.025-3.059-1.865-3.059-1.866 0-2.153 1.456-2.153 2.966V20h-3V9h2.884v1.507h.041c.401-.759 1.381-1.559 2.844-1.559 3.042 0 3.605 2.002 3.605 4.604V20z"/>
+  </svg>
+</a>
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+</footer>
+
+<button id="scrollTopBtn">
+  ↑
+</button>
+<script src="script.js"></script>
+
+<!-- Scroll To Top Button -->
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 - Stackly Bank</title>
+
+<style>
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background */
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #0f0f0f, #592294);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+}
+
+/* Floating glow circles */
+body::before,
+body::after {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 50%;
+  filter: blur(80px);
+  animation: float 6s ease-in-out infinite;
+}
+
+body::before {
+  top: 10%;
+  left: 10%;
+}
+
+body::after {
+  bottom: 10%;
+  right: 10%;
+  animation-delay: 3s;
+}
+
+/* Container */
+.stackly-404-container {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+  animation: fadeUp 1s ease forwards;
+}
+
+/* 404 Number */
+.stackly-404-number {
+  font-size: 150px;
+  font-weight: 800;
+  background: linear-gradient(45deg, #ffffff, #d3b4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+/* Heading */
+.stackly-404-container h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+/* Paragraph */
+.stackly-404-container p {
+  color: #ddd;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Button */
+.stackly-404-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #ffffff;
+  color: #592294;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.stackly-404-btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* Animations */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-30px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .stackly-404-number {
+    font-size: 90px;
+  }
+
+  .stackly-404-container h2 {
+    font-size: 22px;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="stackly-404-container">
+  <div class="stackly-404-number">404</div>
+  <h2>Oops! Page Not Found</h2>
+  <p>
+    The page you are looking for might have been removed,
+    had its name changed, or is temporarily unavailable.
+  </p>
+  <a href="home2.html" class="stackly-404-btn">Back To Home →</a>
+</div>
+
+<script>
+/* Optional Auto Redirect After 10 Seconds */
+setTimeout(function(){
+  window.location.href = "index.html";
+}, 15000);
+</script>
+
+</body>
+</html>

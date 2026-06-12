@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stackly</title>
+
+
+<style>
+@font-face{
+font-family:"Britti";
+src:url("fonts/BrittiSans-Regular.woff2") format("woff2");
+font-weight:400;
+font-style:normal;
+font-display:swap;
+}
+</style>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+<div class="topbar">
+  <div class="left">
+    <a href="404.html">Support</a> • 
+    <a href="404.html">Help</a>
+  </div>
+
+  <div class="right">
+    <span>📞 <a href="404.html">+44 7820 124453</a></span>
+    <span>✉ <a href="404.html">hello@stackly.com</a></span>
+
+    <div class="social">
+      <a href="404.html"><i>f</i></a>
+      <a href="404.html"><i>x</i></a>
+      <a href="404.html"><i>in</i></a>
+      <a href="404.html"><i>◎</i></a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- HEADER -->
+<header class="header">
+
+  <div class="logo">
+  <a href="index.html">
+    <img src="images/bank.webp" alt="Stackly Logo">
+  
+  </a>
+</div>
+  <nav class="nav">
+    <ul class="nav-links">
+
+      <li class="dropdown">
+        <a href="index.html" class="nav-btn">Home +</a>
+        <ul class="menu">
+          <li><a href="index.html">Home 1</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="about.html" class="nav-btn">About Us</a>
+      </li>
+
+      <li class="dropdown">
+        <a href="#" class="nav-btn">Services +</a>
+        <ul class="menu">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="singleservice.html">Single Service</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+         
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="#" class="nav-btn">Pages +</a>
+        <ul class="menu">
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="Team.html">Our Team</a></li>
+          <li><a href="login.html">My Account</a></li>
+          <li><a href="shop.html">Shop</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="blog.html" class="nav-btn">Blog</a>
+      </li>
+
+      <li>
+        <a href="contact.html">Contact</a>
+      </li>
+
+      <li>
+        <a href="Dashboard.html">Dashboard</a>
+      </li>
+
+    </ul>
+  </nav>
+
+  <div class="actions">
+    <span class="search" onclick="goTo404()">🔍</span>
+
+<script>
+function goTo404(){
+  window.location.href = "404.html";
+}
+</script>
+   
+    <a href="login.html" class="login">Login</a>
+    <a href="contact.html">
+      <button class="cta">Get In Touch</button>
+    </a>
+    <div class="hamburger" id="hamburger">☰</div>
+  </div>
+
+</header>
+<!-- MOBILE FULLSCREEN MENU -->
+<!-- MOBILE FULLSCREEN MENU -->
+<div class="mobile-menu" id="mobileMenu">
+
+  <div class="mobile-header">
+    <div class="close-btn" id="closeMenu">✕</div>
+  </div>
+
+  <ul class="mobile-nav">
+
+    <li class="m-item">
+      <div class="m-title">
+        <a href="index.html">Home +</a>
+      </div>
+      <ul class="m-dropdown">
+        <li><a href="index.html">Home 2</a></li>
+      </ul>
+    </li>
+
+    <li class="m-item">
+      <div class="m-title">
+        <a href="about.html">About Us</a>
+      </div>
+    </li>
+
+    <li class="m-item">
+      <div class="m-title">
+        <a href="services.html">Services +</a>
+      </div>
+      <ul class="m-dropdown">
+        <li><a href="services.html">Services</a></li>
+        <li><a href="singleservice.html">Single Service</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+       
+      </ul>
+    </li>
+
+    <li class="m-item">
+      <div class="m-title">
+        <a href="#">Pages +</a>
+      </div>
+      <ul class="m-dropdown">
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="login.html">My Account</a></li>
+        <li><a href="shop.html">Shop</a></li>
+      </ul>
+    </li>
+
+    <li class="m-item">
+      <div class="m-title">
+        <a href="blog.html">Blog</a>
+      </div>
+    </li>
+
+    <li class="m-item">
+      <div class="m-title">
+        <a href="contact.html">Contact</a>
+      </div>
+    </li>
+
+    <li class="m-item">
+      <div class="m-title">
+        <a href="Dashboard.html">Dashboard</a>
+      </div>
+    </li>
+
+    <li class="mobile-login">
+      <a href="login.html">Login</a>
+    </li>
+
+    <li>
+      <a href="contact.html">
+        <button class="mobile-cta">Get In Touch</button>
+      </a>
+    </li>
+
+  </ul>
+
+</div>
+
+
+
+
+
+
+<section class="hero">
+
+  <!-- floating images -->
+  <img src="images/coin2-removebg-preview.webp" class="coin coin1">
+  <img src="images/coin1-removebg-preview.webp" class="coin coin2">
+  <img src="images/cards-removebg-preview.webp" class="cards">
+
+  <div class="hero-content">
+    <h1>About Us</h1>
+    <p>Home / <span>About Us</span></p>
+  </div>
+
+</section>
+
+
+
+
+
+
+
+<section class="about-section">
+
+  <!-- TOP CENTER HEADER -->
+  <div class="about-header">
+    <span class="about-badge">ABOUT STACKLY</span>
+    <h2>Smart Money Transfer Solutions<br>For Your Business</h2>
+  </div>
+
+
+  <!-- GRID -->
+  <div class="about-wrapper">
+
+    <!-- LEFT IMAGE -->
+    <div class="about-image">
+      <img src="images/ab.webp" alt="">
+    </div>
+
+    <div class="about-cards">
+
+  <div class="about-card">
+    <div class="about-card-inner">
+      <div class="about-icon">
+        <img src="images/g1 (1).webp" alt="">
+      </div>
+      <div>
+        <h3>Robust Data Protection</h3>
+        <p>Your privacy and security are protected using advanced encryption and secure servers.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-card">
+    <div class="about-card-inner">
+      <div class="about-icon">
+        <img src="images/g1 (2).webp" alt="">
+      </div>
+      <div>
+        <h3>Fair & Honest Transactions</h3>
+        <p>No hidden fees and transparent pricing on every international transfer.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-card">
+    <div class="about-card-inner">
+      <div class="about-icon">
+        <img src="images/g1 (3).webp" alt="">
+      </div>
+      <div>
+        <h3>Global Money Transfers</h3>
+        <p>Send money worldwide instantly using our secure payment network.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  </div>
+
+</section>
+
+
+<script>
+
+/* SCROLL REVEAL */
+const reveals = document.querySelectorAll(".reveal");
+
+function revealOnScroll(){
+  const windowHeight = window.innerHeight;
+
+  reveals.forEach(el=>{
+    const elementTop = el.getBoundingClientRect().top;
+
+    if(elementTop < windowHeight - 80){
+      el.classList.add("active");
+    }
+  });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+revealOnScroll();
+
+
+/* IMAGE LOAD ANIMATION */
+const mainImg = document.querySelector(".main-img");
+
+if(mainImg.complete){
+  mainImg.classList.add("loaded");
+}else{
+  mainImg.onload = () => mainImg.classList.add("loaded");
+}
+
+</script>
+
+
+
+
+<section class="getting">
+  
+  <div class="getting-top">
+    <span class="getting-badge">GETTING STARTED</span>
+    <h2>Get Set Up And Start Spending<br>With Your Card In Minutes</h2>
+  </div>
+
+  <div class="getting-grid">
+
+    <!-- CARD 1 -->
+    <div class="getting-card">
+      <h3>Create A Free Account</h3>
+      <p>Creating a free account is a quick and easy way to get started with a service without any upfront cost.</p>
+
+      <div class="card-bottom">
+        <img src="images/s1 (1).webp" class="step-icon" alt="">
+        <span class="step-badge">STEP 01</span>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="getting-card">
+      <h3>Send Your Funds</h3>
+      <p>Sending your funds has never been easier thanks to modern digital payment platforms and services.</p>
+
+      <div class="card-bottom">
+        <img src="images/s1 (2).webp" class="step-icon" alt="">
+        <span class="step-badge">STEP 02</span>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="getting-card">
+      <h3>Track Your Transfer</h3>
+      <p>Monitor the progress of your transfer every step of the way with full transparency and peace of mind.</p>
+
+      <div class="card-bottom">
+        <img src="images/s1 (3).webp" class="step-icon" alt="">
+        <span class="step-badge">STEP 03</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<script>
+const cards = document.querySelectorAll(".getting-card");
+
+window.addEventListener("load", ()=>{
+  cards.forEach((card,i)=>{
+    setTimeout(()=>{
+      card.style.opacity="1";
+      card.style.transform="translateY(0)";
+    }, i*180);
+  });
+});
+</script>
+
+
+
+
+
+
+
+<section class="why">
+
+  <div class="why-container">
+
+    <!-- LEFT CONTENT -->
+    <div class="why-left reveal">
+
+      <span class="why-badge">WHY CHOOSE US</span>
+
+      <h2>
+        Secure Easy & Safe Hassle Free <br>
+        Money Transfer Solution
+      </h2>
+
+      <p class="why-desc">
+        The money transfer has been successfully completed and the amount
+        has been sent to the designated account please note that processing times.
+      </p>
+
+      <!-- ITEM 1 -->
+      <div class="why-item">
+        <div class="why-icon">
+          <img src="images/h6 (6).webp" alt="">
+        </div>
+        <div>
+          <h4>Regular Payments</h4>
+          <p>Set up regular payments to save time and ensure your bills or subscriptions are always paid on time.</p>
+        </div>
+      </div>
+
+      <!-- ITEM 2 -->
+      <div class="why-item">
+        <div class="why-icon">
+          <img src="images/h6 (5).webp" alt="">
+        </div>
+        <div>
+          <h4>Bank Beating Rates</h4>
+          <p>Enjoy bank beating rates that help you get more for your money sending funds abroad.</p>
+        </div>
+      </div>
+
+      <div class="why-actions">
+        <a href="404.html" class="why-btn">Get Started</a>
+        <span class="why-phone">+44 7820 124453</span>
+      </div>
+
+    </div>
+
+
+    <!-- RIGHT IMAGE -->
+    <div class="why-right reveal">
+      
+        <img src="images/bankingcard.webp" class="why-main-img">
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<script>
+
+/* scroll reveal animation */
+
+const a = document.querySelectorAll(".reveal");
+
+function revealOnScroll(){
+  const windowHeight = window.innerHeight;
+
+  a.forEach(el=>{
+    if(el.getBoundingClientRect().top < windowHeight - 80){
+      el.classList.add("active");
+    }
+  });
+}
+
+window.addEventListener("scroll",revealOnScroll);
+window.addEventListener("load",revealOnScroll);
+
+</script>
+
+
+
+<section class="stats">
+
+  <p class="stats-subtitle">
+    DISCOVER THE STORY AND COMMITMENT TO EXCELLENCE
+  </p>
+
+  <div class="stats-row">
+
+    <div class="stat-box">
+      <img src="images/h1 (1).webp" class="stat-icon" alt="">
+      <div class="stat-text">
+        <h2>7M+</h2>
+        <p>Total Users Around The World</p>
+      </div>
+    </div>
+
+    <div class="stat-box">
+      <img src="images/h1 (2).webp" class="stat-icon" alt="">
+      <div class="stat-text">
+        <h2>60+</h2>
+        <p>Country Provide Served</p>
+      </div>
+    </div>
+
+    <div class="stat-box">
+      <img src="images/h1 (3).webp" class="stat-icon" alt="">
+      <div class="stat-text">
+        <h2>735+</h2>
+        <p>Total daily transactions</p>
+      </div>
+    </div>
+
+    <div class="stat-box">
+      <img src="images/h1 (4).webp" class="stat-icon" alt="">
+      <div class="stat-text">
+        <h2>9%</h2>
+        <p>Unlimited Daily Cashback</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<script>
+const statItems = document.querySelectorAll(".stat-box");
+
+const observer = new IntersectionObserver(entries=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      entry.target.style.opacity="1";
+      entry.target.style.transform="translateY(0)";
+    }
+  });
+},{threshold:0.3});
+
+statItems.forEach(el=>observer.observe(el));
+</script>
+
+
+
+
+<section class="testimonials">
+
+  <!-- LEFT TEXT -->
+  <div class="test-left">
+  
+    <h2>Real Stories From Our Happy Clients</h2>
+    <p>
+      We adhere to strict regulatory standards and use bank level
+      security protocols to give you complete peace of mind
+    </p>
+  <a href="404.html" class="browse-btn">Browse More</a>
+  </div>
+
+
+  <!-- CENTER PEOPLE LIST -->
+  <div class="test-users">
+
+    <div class="user active" data-id="1">
+      <img src="images/n1 (1).webp">
+      <div>
+        <h4>Tabitha Walker</h4>
+        <span>CEO & Founder</span>
+      </div>
+    </div>
+
+    <div class="user" data-id="2">
+      <img src="images/n1 (2).webp">
+      <div>
+        <h4>Kristen Santos</h4>
+        <span>Businessman</span>
+      </div>
+    </div>
+
+    <div class="user" data-id="3">
+      <img src="images/n1 (3).webp">
+      <div>
+        <h4>Carmen Shumate</h4>
+        <span>Entrepreneur</span>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- RIGHT REVIEW BOX -->
+  <div class="test-review">
+
+    <div class="review active" id="review-1">
+      <div class="stars">★★★★★</div>
+      <h3>Fair fees. Real rates. No surprises.</h3>
+      <p>
+        I work abroad and send money back home every month.
+        The transfer service changed everything for me — fast and reliable.
+      </p>
+    </div>
+
+    <div class="review" id="review-2">
+      <div class="stars">★★★★★</div>
+      <h3>Amazing support and smooth UI</h3>
+      <p>
+        Their support team responds instantly and the app is extremely easy.
+      </p>
+    </div>
+
+    <div class="review" id="review-3">
+      <div class="stars">★★★★★</div>
+      <h3>Best transfer experience</h3>
+      <p>
+        Payments arrive within minutes. Highly recommended service.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<script>
+const users = document.querySelectorAll(".user");
+const reviews = document.querySelectorAll(".review");
+
+users.forEach(user=>{
+  user.addEventListener("click",()=>{
+
+    // remove active
+    users.forEach(u=>u.classList.remove("active"));
+    reviews.forEach(r=>r.classList.remove("active"));
+
+    // add active
+    user.classList.add("active");
+    document.getElementById("review-"+user.dataset.id)
+      .classList.add("active");
+
+  });
+});
+</script>
+ 
+
+
+<section class="team">
+
+  <div class="team-top">
+    <span class="team-badge">OUR TEAM</span>
+    <h2>Meet Our Expert And Experienced<br>Team The Real Creators</h2>
+  </div>
+
+  <div class="team-grid">
+
+    <!-- CARD 1 -->
+    <div class="team-card">
+      <div class="team-img">
+        <img src="images/m1 (1).webp" alt="">
+
+        <div class="team-social">
+
+          <!-- Facebook -->
+          <a href="404.html">
+            <svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2.1v-2.9h2.1V9.4c0-2.1 1.2-3.3 3.2-3.3.9 0 1.9.2 1.9.2v2.1h-1.1c-1.1 0-1.4.7-1.4 1.4v1.7h2.4l-.4 2.9h-2v7A10 10 0 0 0 22 12z"/></svg>
+          </a>
+
+          <!-- Instagram -->
+          <a href="404.html">
+            <svg viewBox="0 0 24 24"><path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h10zm-5 3.5A5.5 5.5 0 1 0 17.5 13 5.5 5.5 0 0 0 12 7.5zm0 9A3.5 3.5 0 1 1 15.5 13 3.5 3.5 0 0 1 12 16.5z"/></svg>
+          </a>
+
+          <!-- Twitter X -->
+          <a href="404.html">
+            <svg viewBox="0 0 24 24"><path d="M18 2h3l-7 8 8 12h-6l-5-7-6 7H2l8-9-8-11h6l4 6 6-6z"/></svg>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="404.html">
+            <svg viewBox="0 0 24 24"><path d="M6 9H3V21h3zM4.5 2A1.5 1.5 0 1 0 6 3.5 1.5 1.5 0 0 0 4.5 2zM21 21h-3v-6c0-1.5-.5-2.5-2-2.5s-2.3 1.1-2.3 2.5V21h-3V9h3v1.6A3.3 3.3 0 0 1 17 9c2.5 0 4 1.6 4 4.9z"/></svg>
+          </a>
+
+        </div>
+      </div>
+
+      <h3>Pamela Briseno</h3>
+      <span>Reporting Expert</span>
+    </div>
+
+
+    <!-- COPY THIS CARD FOR OTHER MEMBERS -->
+    <div class="team-card">
+      <div class="team-img">
+        <img src="images/m1 (2).webp" alt="">
+
+
+
+         <div class="team-social">
+
+          <!-- Facebook -->
+          <a href="404.html">
+            <svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2.1v-2.9h2.1V9.4c0-2.1 1.2-3.3 3.2-3.3.9 0 1.9.2 1.9.2v2.1h-1.1c-1.1 0-1.4.7-1.4 1.4v1.7h2.4l-.4 2.9h-2v7A10 10 0 0 0 22 12z"/></svg>
+          </a>
+
+          <!-- Instagram -->
+          <a href="404.html">
+            <svg viewBox="0 0 24 24"><path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h10zm-5 3.5A5.5 5.5 0 1 0 17.5 13 5.5 5.5 0 0 0 12 7.5zm0 9A3.5 3.5 0 1 1 15.5 13 3.5 3.5 0 0 1 12 16.5z"/></svg>
+          </a>
+
+          <!-- Twitter X -->
+          <a href="404.html">
+            <svg viewBox="0 0 24 24"><path d="M18 2h3l-7 8 8 12h-6l-5-7-6 7H2l8-9-8-11h6l4 6 6-6z"/></svg>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="404.html">
+            <svg viewBox="0 0 24 24"><path d="M6 9H3V21h3zM4.5 2A1.5 1.5 0 1 0 6 3.5 1.5 1.5 0 0 0 4.5 2zM21 21h-3v-6c0-1.5-.5-2.5-2-2.5s-2.3 1.1-2.3 2.5V21h-3V9h3v1.6A3.3 3.3 0 0 1 17 9c2.5 0 4 1.6 4 4.9z"/></svg>
+          </a>
+
+        </div>
+      
+        
+      </div>
+      <h3>Lawrence Larson</h3>
+      <span>CEO & Co-Founder</span>
+    </div>
+
+    <div class="team-card">
+      <div class="team-img">
+        <img src="images/m1 (3).webp" alt="">
+       
+
+
+         <div class="team-social">
+
+          <!-- Facebook -->
+          <a href="404.html">
+            <svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2.1v-2.9h2.1V9.4c0-2.1 1.2-3.3 3.2-3.3.9 0 1.9.2 1.9.2v2.1h-1.1c-1.1 0-1.4.7-1.4 1.4v1.7h2.4l-.4 2.9h-2v7A10 10 0 0 0 22 12z"/></svg>
+          </a>
+
+          <!-- Instagram -->
+          <a href="404.html">
+            <svg viewBox="0 0 24 24"><path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h10zm-5 3.5A5.5 5.5 0 1 0 17.5 13 5.5 5.5 0 0 0 12 7.5zm0 9A3.5 3.5 0 1 1 15.5 13 3.5 3.5 0 0 1 12 16.5z"/></svg>
+          </a>
+
+          <!-- Twitter X -->
+          <a href="404.html">
+            <svg viewBox="0 0 24 24"><path d="M18 2h3l-7 8 8 12h-6l-5-7-6 7H2l8-9-8-11h6l4 6 6-6z"/></svg>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="404.html">
+            <svg viewBox="0 0 24 24"><path d="M6 9H3V21h3zM4.5 2A1.5 1.5 0 1 0 6 3.5 1.5 1.5 0 0 0 4.5 2zM21 21h-3v-6c0-1.5-.5-2.5-2-2.5s-2.3 1.1-2.3 2.5V21h-3V9h3v1.6A3.3 3.3 0 0 1 17 9c2.5 0 4 1.6 4 4.9z"/></svg>
+          </a>
+
+        </div>
+      </div>
+      <h3>Deborah Boisvert</h3>
+      <span>Project Manager</span>
+    </div>
+
+    <div class="team-card">
+      <div class="team-img">
+        <img src="images/m1 (4).webp" alt="">
+       
+
+
+         <div class="team-social">
+
+          <!-- Facebook -->
+          <a href="404.html">
+            <svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2.1v-2.9h2.1V9.4c0-2.1 1.2-3.3 3.2-3.3.9 0 1.9.2 1.9.2v2.1h-1.1c-1.1 0-1.4.7-1.4 1.4v1.7h2.4l-.4 2.9h-2v7A10 10 0 0 0 22 12z"/></svg>
+          </a>
+
+          <!-- Instagram -->
+          <a href="404.html">
+            <svg viewBox="0 0 24 24"><path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h10zm-5 3.5A5.5 5.5 0 1 0 17.5 13 5.5 5.5 0 0 0 12 7.5zm0 9A3.5 3.5 0 1 1 15.5 13 3.5 3.5 0 0 1 12 16.5z"/></svg>
+          </a>
+
+          <!-- Twitter X -->
+          <a href="404.html">
+            <svg viewBox="0 0 24 24"><path d="M18 2h3l-7 8 8 12h-6l-5-7-6 7H2l8-9-8-11h6l4 6 6-6z"/></svg>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="404.html">
+            <svg viewBox="0 0 24 24"><path d="M6 9H3V21h3zM4.5 2A1.5 1.5 0 1 0 6 3.5 1.5 1.5 0 0 0 4.5 2zM21 21h-3v-6c0-1.5-.5-2.5-2-2.5s-2.3 1.1-2.3 2.5V21h-3V9h3v1.6A3.3 3.3 0 0 1 17 9c2.5 0 4 1.6 4 4.9z"/></svg>
+          </a>
+
+        </div>
+      </div>
+      <h3>Monica Steiner</h3>
+      <span>Business Executive</span>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="marquee">
+  <div class="marquee-track">
+
+    <h2>Quick Customer Service <span class="coin">$</span></h2>
+    <h2>Instant Money Transfer <span class="coin">$</span></h2>
+    <h2>Secure Global Payments <span class="coin">$</span></h2>
+    <h2>24/7 Banking Support <span class="coin">$</span></h2>
+
+    <!-- duplicate for infinite loop -->
+    <h2>Quick Customer Service <span class="coin">$</span></h2>
+    <h2>Instant Money Transfer <span class="coin">$</span></h2>
+    <h2>Secure Global Payments <span class="coin">$</span></h2>
+    <h2>24/7 Banking Support <span class="coin">$</span></h2>
+
+  </div>
+</section>
+
+
+
+
+<footer class="footer">
+
+<!-- NEWSLETTER -->
+<!-- NEWSLETTER -->
+<div class="newsletter">
+  <div class="newsletter-inner">
+
+    <div class="news-left">
+      <div class="footer-logo">
+  <a href="index.html">
+    <img src="images/bank.webp" alt="Stackly Logo">
+  </a>
+</div>
+      <p>
+        Transfer times depend on the destination and delivery method.
+        Some transfers arrive within minutes while others may take up to 1-3 business days.
+      </p>
+    </div>
+
+    <form class="news-form" id="newsletterForm">
+      <h3>Subscribe To Our Newsletter</h3>
+      <div class="input-box">
+        <input type="text" id="emailInput" placeholder="Enter your email address" required>
+        <button type="submit">Subscribe Now</button>
+      </div>
+      <small id="errorMsg" style="color:red;"></small>
+    </form>
+
+  </div>
+</div>
+
+<script>
+  const form = document.getElementById("newsletterForm");
+  const emailInput = document.getElementById("emailInput");
+  const errorMsg = document.getElementById("errorMsg");
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const email = emailInput.value.trim();
+
+    // 1️⃣ Must end with @gmail.com
+    if (!email.endsWith("@gmail.com")) {
+      errorMsg.textContent = "Email must end with @gmail.com";
+      return;
+    }
+
+    const username = email.split("@")[0];
+
+    // 2️⃣ Only letters and numbers allowed in username
+    const validUsernamePattern = /^[a-zA-Z0-9]+$/;
+
+    if (!validUsernamePattern.test(username)) {
+      errorMsg.textContent = "Only letters and numbers allowed before @gmail.com";
+      return;
+    }
+
+    // 3️⃣ Only numbers should not be allowed
+    const onlyNumbersPattern = /^[0-9]+$/;
+
+    if (onlyNumbersPattern.test(username)) {
+      errorMsg.textContent = "Username cannot be only numbers";
+      return;
+    }
+
+    // ✅ If everything is valid
+    errorMsg.textContent = "";
+    window.location.href = "404.html";
+  });
+</script>
+
+<!-- MAIN FOOTER -->
+<div class="footer-main">
+
+  <!-- FOLLOW US -->
+  <div class="footer-col">
+    <h4>Follow Us</h4>
+
+  <ul class="social-list">
+
+<li>
+   <a href="404.html">
+<svg viewBox="0 0 24 24" class="icon">
+<path d="M22 12a10 10 0 1 0-11.6 9.9v-7h-2.1v-2.9h2.1V9.8c0-2.1 1.3-3.3 3.2-3.3.9 0 1.8.1 1.8.1v2h-1c-1 0-1.4.6-1.4 1.3v1.6h2.4l-.4 2.9h-2v7A10 10 0 0 0 22 12"/>
+</svg>
+</a>
+
+</li>
+
+<li>
+   <a href="404.html">
+<svg viewBox="0 0 24 24" class="icon">
+<path d="M18 2H21L14 10L22 22H15L9.5 14.5L3 22H0L7.5 13.5L0 2H7L12 9L18 2Z"/>
+</svg>
+</a>
+
+</li>
+
+<li>
+   <a href="404.html">
+<svg viewBox="0 0 24 24" class="icon">
+<path d="M7 2C4.2 2 2 4.2 2 7V17C2 19.8 4.2 22 7 22H17C19.8 22 22 19.8 22 17V7C22 4.2 19.8 2 17 2H7ZM12 7A5 5 0 1 1 12 17A5 5 0 0 1 12 7ZM18 5.5A1.2 1.2 0 1 1 18 7.9A1.2 1.2 0 0 1 18 5.5Z"/>
+</svg>
+</a>
+
+</li>
+
+<li>
+   <a href="404.html">
+<svg viewBox="0 0 24 24" class="icon">
+<path d="M6.9 6.9H3.7V20H6.9V6.9ZM5.3 3.3A1.9 1.9 0 1 0 5.3 7.1A1.9 1.9 0 0 0 5.3 3.3ZM20.3 11.6C20.3 8.5 18.6 7 16.4 7C15.1 7 14.4 7.7 14 8.2V7.2H10.9C11 7.9 10.9 20 10.9 20H14V12.8C14 12.4 14 12 14.1 11.7C14.3 11.2 14.8 10.7 15.5 10.7C16.4 10.7 16.8 11.4 16.8 12.5V20H20V12.2C20.3 11.9 20.3 11.7 20.3 11.6Z"/>
+</svg>
+
+   </a>
+
+</li>
+
+</ul>
+  </div>
+
+  <!-- QUICK LINKS -->
+  <div class="footer-col">
+    <h4>Quick Links</h4>
+    <ul class="footer-links">
+      <li><a href="404.html">About Us</a></li>
+      <li><a href="404.html">Money Transfer</a></li>
+      <li><a href="404.html">Our Features</a></li>
+      <li><a href="404.html">Frequent Questions</a></li>
+      <li><a href="404.html">Comparing Price</a></li>
+    </ul>
+  </div>
+
+  <!-- RESOURCES -->
+  <div class="footer-col">
+    <h4>Resources</h4>
+    <ul class="footer-links">
+      <li><a href="404.html">Contact Us</a></li>
+      <li><a href="404.html">Download App</a></li>
+      <li><a href="404.html">Our Team</a></li>
+      <li><a href="404.html">News & Blog</a></li>
+      <li><a href="404.html">Customer Review</a></li>
+    </ul>
+  </div>
+
+  <!-- GET IN TOUCH -->
+  <div class="footer-col">
+    <h4>Get In Touch</h4>
+    <ul class="contact-list">
+      <li><strong>Location</strong><p>New York, USA</p></li>
+      <li><strong>Email</strong><p>hello@stackly.com</p></li>
+      <li><strong>Phone</strong><p>+91 9876543210</p></li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- BOTTOM BAR -->
+<div class="footer-bottom">
+  <p>© Stackly. All Rights Reserved</p>
+  <div class="policies">
+    <a href="404.html">Privacy Policy</a>
+    <span>•</span>
+    <a href="404.html">Terms & Conditions</a>
+  </div>
+</div>
+</footer>
+<script>
+
+    
+const scrollBtn = document.getElementById("scrollTopBtn");
+
+/* show after scrolling */
+window.addEventListener("scroll", () => {
+if (window.scrollY > 300) {
+scrollBtn.classList.add("show");
+} else {
+scrollBtn.classList.remove("show");
+}
+});
+
+/* scroll to top */
+scrollBtn.addEventListener("click", () => {
+window.scrollTo({
+top: 0,
+behavior: "smooth"
+});
+});
+
+</script>
+
+
+<button id="scrollTopBtn">
+  <svg viewBox="0 0 24 24">
+    <path d="M12 5l7 7-1.4 1.4L13 9.8V20h-2V9.8L6.4 13.4 5 12z"/>
+  </svg>
+</button>
+
+
+
+<script>
+
+    // dropdown desktop
+document.querySelectorAll(".dropdown").forEach(drop=>{
+drop.querySelector(".nav-btn").addEventListener("click",(e)=>{
+document.querySelectorAll(".dropdown").forEach(d=>{
+if(d!==drop)d.classList.remove("open");
+});
+drop.classList.toggle("open");
+e.stopPropagation();
+});
+});
+
+document.addEventListener("click",()=>{
+document.querySelectorAll(".dropdown").forEach(d=>d.classList.remove("open"));
+});
+
+// mobile menu
+hamburger.onclick=()=>mobile.classList.add("active");
+close.onclick=()=>mobile.classList.remove("active");
+
+
+
+// open mobile menu
+hamburger.onclick=()=>{
+mobileMenu.classList.add("active");
+}
+
+// close mobile
+closeMenu.onclick=()=>{
+mobileMenu.classList.remove("active");
+}
+
+// mobile dropdown accordion
+document.querySelectorAll(".m-title").forEach(title=>{
+title.addEventListener("click",()=>{
+const parent=title.parentElement;
+
+document.querySelectorAll(".m-item").forEach(i=>{
+if(i!==parent)i.classList.remove("open");
+});
+
+parent.classList.toggle("open");
+});
+});
+
+
+
+
+document.getElementById("registerForm").addEventListener("submit",function(e){
+
+const pass=this.querySelector("input[type=password]").value;
+
+const strong=/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}$/;
+
+if(!strong.test(pass)){
+e.preventDefault();
+alert("Password must contain uppercase, lowercase, number and symbol.");
+}
+
+});
+
+
+
+
+</script>
+
+
+<script src="main.js"></script>
+</body>
+</html>

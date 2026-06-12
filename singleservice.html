@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stackly</title>
+
+
+<style>
+@font-face{
+font-family:"Britti";
+src:url("fonts/BrittiSans-Regular.woff2") format("woff2");
+font-weight:400;
+font-style:normal;
+font-display:swap;
+}
+</style>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <!-- TOP INFO BAR -->
+<div class="topbar">
+  <div class="left">Support • Help</div>
+
+  <div class="right">
+    <span>📞 +44 7820 124453</span>
+    <span>✉ hello@stackly.com</span>
+
+    <div class="social">
+      <i>f</i>
+      <i>x</i>
+      <i>in</i>
+      <i>◎</i>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- HEADER -->
+<header class="header">
+
+  <div class="logo">
+  <a href="index.html">
+    <img src="images/bank.webp" alt="Stackly Logo">
+  
+  </a>
+</div>
+  <nav class="nav">
+    <ul class="nav-links">
+
+      <li class="dropdown">
+        <a href="index.html" class="nav-btn">Home +</a>
+        <ul class="menu">
+          <li><a href="index.html">Home 1</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="about.html" class="nav-btn">About Us</a>
+      </li>
+
+      <li class="dropdown">
+        <a href="#" class="nav-btn">Services +</a>
+        <ul class="menu">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="singleservice.html">Single Service</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+       
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="#" class="nav-btn">Pages +</a>
+        <ul class="menu">
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="Team.html">Our Team</a></li>
+          <li><a href="login.html">My Account</a></li>
+          <li><a href="shop.html">Shop</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="blog.html" class="nav-btn">Blog</a>
+      </li>
+
+      <li>
+        <a href="contact.html">Contact</a>
+      </li>
+
+      <li>
+        <a href="Dashboard.html">Dashboard</a>
+      </li>
+
+    </ul>
+  </nav>
+
+  <div class="actions">
+<span class="search" onclick="goTo404()">🔍</span>
+
+<script>
+function goTo404(){
+  window.location.href = "404.html";
+}
+</script>
+    <a href="login.html" class="login">Login</a>
+    <a href="contact.html">
+      <button class="cta">Get In Touch</button>
+    </a>
+    <div class="hamburger" id="hamburger">☰</div>
+  </div>
+
+</header>
+<!-- MOBILE FULLSCREEN MENU -->
+<!-- MOBILE FULLSCREEN MENU -->
+<div class="mobile-menu" id="mobileMenu">
+
+  <div class="mobile-header">
+    <div class="close-btn" id="closeMenu">✕</div>
+  </div>
+
+  <ul class="mobile-nav">
+
+    <li class="m-item">
+      <div class="m-title">
+        <a href="index.html">Home +</a>
+      </div>
+      <ul class="m-dropdown">
+        <li><a href="index.html">Home 2</a></li>
+      </ul>
+    </li>
+
+    <li class="m-item">
+      <div class="m-title">
+        <a href="about.html">About Us</a>
+      </div>
+    </li>
+
+    <li class="m-item">
+      <div class="m-title">
+        <a href="#">Services +</a>
+      </div>
+      <ul class="m-dropdown">
+        <li><a href="services.html">Services</a></li>
+        <li><a href="singleservice.html">Single Service</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+   
+      </ul>
+    </li>
+
+    <li class="m-item">
+      <div class="m-title">
+        <a href="#">Pages +</a>
+      </div>
+      <ul class="m-dropdown">
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="login.html">My Account</a></li>
+        <li><a href="shop.html">Shop</a></li>
+      </ul>
+    </li>
+
+    <li class="m-item">
+      <div class="m-title">
+        <a href="blog.html">Blog</a>
+      </div>
+    </li>
+
+    <li class="m-item">
+      <div class="m-title">
+        <a href="contact.html">Contact</a>
+      </div>
+    </li>
+
+    <li class="m-item">
+      <div class="m-title">
+        <a href="Dashboard.html">Dashboard</a>
+      </div>
+    </li>
+
+    <li class="mobile-login">
+      <a href="login.html">Login</a>
+    </li>
+
+    <li>
+      <a href="contact.html">
+        <button class="mobile-cta">Get In Touch</button>
+      </a>
+    </li>
+
+  </ul>
+
+</div>
+
+
+
+
+<section class="hero">
+
+  <!-- floating images -->
+  <img src="images/coin2-removebg-preview.webp" class="coin coin1">
+  <img src="images/coin1-removebg-preview.webp" class="coin coin2">
+  <img src="images/cards-removebg-preview.webp" class="cards">
+
+  <div class="hero-content">
+    <h1>Single Service</h1>
+    <p>Home / <span>Single Service</span></p>
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+<div class="service-page">
+
+<div class="container">
+
+<!-- LEFT CONTENT -->
+
+<main>
+
+<div class="video reveal">
+<img src="images/girl10.webp">
+
+</div>
+
+<h1 class="title reveal">Online Banking</h1>
+
+<p class="reveal">Many financial institutions offer balance transfer promotions with low interest rates for a specified period.</p>
+<p class="reveal">Balance transfer options allow individuals to move outstanding debt from one account to another  Balance transfer options allow individuals to move outstanding debt from one credit account to another, typically to take advantage of lower interest rates or promotional offers. This financial tool is commonly used to consolidate high-interest credit card.</p>
+
+
+<div class="quote reveal">
+Our mission is to provide fast secure reliable Currency Exchange & Money Transfer across the globe.Our mission is to provide fast secure and reliable Currency Exchange & Money Transfer that connect individuals and businesses across the globe. We are committed to making financial transactions accessible and affordable for everyone regardless of location or background by leveraging innovative location.”
+</div>
+
+<div class="work-hours reveal">
+
+<div>
+<h2>How Online Banking Works</h2>
+<div class="work-list">
+<ul>
+<li>Registration and Verification</li>
+<li>Making Transactions</li>
+<li>Monitoring Accounts</li>
+<li>Global Payments</li>
+<li>Spend without borders</li>
+</ul>
+<ul>
+<li>24 Hours Support</li>
+<li>Mobile Service</li>
+<li>Online 24/7</li>
+<li>Security Protection</li>
+<li>Performance improvement</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<div class="images reveal">
+<img src="images/man1 (2).webp">
+<img src="images/man1 (1).webp">
+</div>
+
+<p class="after-images reveal">
+Secure payment refers to conducting financial transactions in a protected environment using encryption and authentication systems. 
+Stackly ensures every transfer is monitored in real time to prevent fraud and protect customer financial data worldwide.
+We continuously upgrade security protocols to match global banking standards.
+</p>
+
+
+
+<h2 class="faq-title">More Asked Question</h2>
+
+<div class="faq">
+
+  <div class="faq-item active">
+    <button class="faq-question">
+      <span>How Long Does A Money Transfer Take?</span>
+      <span class="icon">−</span>
+    </button>
+    <div class="faq-answer">
+      Transfers can be instant or completed within one business day depending on the receiving country and banking system. Stackly always shows estimated delivery time before confirmation.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      <span>How Do I Send Money Using Stackly?</span>
+      <span class="icon">+</span>
+    </button>
+    <div class="faq-answer">
+      Create an account, verify your identity, choose recipient details and confirm payment. Your transfer will be processed securely in real time.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      <span>What Are The Delivery Options?</span>
+      <span class="icon">+</span>
+    </button>
+    <div class="faq-answer">
+      Funds can be delivered to bank accounts, mobile wallets or available for cash pickup depending on destination country.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">
+      <span>Is My Transaction Secure?</span>
+      <span class="icon">+</span>
+    </button>
+    <div class="faq-answer">
+      Yes. Stackly uses encryption, fraud monitoring and banking grade authentication to protect every transaction worldwide.
+    </div>
+  </div>
+
+</div>
+
+</main>
+
+<!-- SIDEBAR -->
+
+<aside class="sidebar">
+<form action="404.html" method="get">
+  <div class="search-box">
+    <input type="text" placeholder="Search..." name="query">
+    <button type="submit">🔍</button>
+  </div>
+</form>
+<div class="side-card">
+<h3>Services Category</h3>
+<ul class="category">
+<li>Transfer of Funds</li>
+<li>Online Banking</li>
+<li>Private Loan</li>
+<li>Financial Revenue</li>
+<li>Cost Reduction</li>
+<li>Fraud Detection</li>
+</ul>
+</div>
+
+<div class="side-card">
+<h3>Business Hours</h3>
+<div class="time-row">Mon – Thurs <span>8AM – 5PM</span></div>
+<div class="time-row">Fri – Sat <span>8AM – 3PM</span></div>
+<div class="time-row active">Sun <span>Closed</span></div>
+</div>
+<form id="contactForm">
+  <div class="side-card contact">
+    <h3>Get In Touch</h3>
+
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <textarea id="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit" class="btn">Contact Us</button>
+  </div>
+</form>
+
+<script>
+  document.getElementById("contactForm").addEventListener("submit", function(e) {
+    let name = document.getElementById("name").value.trim();
+    let email = document.getElementById("email").value.trim();
+    let message = document.getElementById("message").value.trim();
+
+    if (name === "" || email === "" || message === "") {
+      e.preventDefault();
+      window.location.href = "404.html";
+    } else {
+      e.preventDefault();
+      alert("Form Submitted Successfully!");
+    }
+  });
+</script>
+
+</aside>
+
+</div>
+</div>
+
+<script>
+
+document.querySelectorAll(".faq-question").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+
+    const item = btn.parentElement;
+
+    // close others
+    document.querySelectorAll(".faq-item").forEach(f=>{
+      if(f!==item){
+        f.classList.remove("active");
+        f.querySelector(".icon").textContent="+";
+      }
+    });
+
+    // toggle current
+    item.classList.toggle("active");
+    btn.querySelector(".icon").textContent =
+      item.classList.contains("active") ? "−" : "+";
+  });
+});
+
+/* Scroll Animation */
+const els=document.querySelectorAll(".reveal");
+function show(){
+const h=window.innerHeight;
+els.forEach(el=>{
+if(el.getBoundingClientRect().top<h-80)el.classList.add("show");
+});
+}
+window.addEventListener("scroll",show);
+show();
+
+</script>
+
+
+
+<footer class="footer">
+
+<!-- NEWSLETTER -->
+<!-- NEWSLETTER -->
+<div class="newsletter">
+  <div class="newsletter-inner">
+
+    <div class="news-left">
+    <div class="footer-logo">
+  <a href="index.html">
+    <img src="images/bank.webp" alt="Stackly Logo">
+  </a>
+</div>
+      <p>
+        Transfer times depend on the destination and delivery method.
+        Some transfers arrive within minutes while others may take up to 1-3 business days.
+      </p>
+    </div>
+
+    <form class="news-form" id="newsletterForm">
+      <h3>Subscribe To Our Newsletter</h3>
+      <div class="input-box">
+        <input type="text" id="emailInput" placeholder="Enter your email address" required>
+        <button type="submit">Subscribe Now</button>
+      </div>
+      <small id="errorMsg" style="color:red;"></small>
+    </form>
+
+  </div>
+</div>
+
+<script>
+  const form = document.getElementById("newsletterForm");
+  const emailInput = document.getElementById("emailInput");
+  const errorMsg = document.getElementById("errorMsg");
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const email = emailInput.value.trim();
+
+    // 1️⃣ Must end with @gmail.com
+    if (!email.endsWith("@gmail.com")) {
+      errorMsg.textContent = "Email must end with @gmail.com";
+      return;
+    }
+
+    const username = email.split("@")[0];
+
+    // 2️⃣ Only letters and numbers allowed in username
+    const validUsernamePattern = /^[a-zA-Z0-9]+$/;
+
+    if (!validUsernamePattern.test(username)) {
+      errorMsg.textContent = "Only letters and numbers allowed before @gmail.com";
+      return;
+    }
+
+    // 3️⃣ Only numbers should not be allowed
+    const onlyNumbersPattern = /^[0-9]+$/;
+
+    if (onlyNumbersPattern.test(username)) {
+      errorMsg.textContent = "Username cannot be only numbers";
+      return;
+    }
+
+    // ✅ If everything is valid
+    errorMsg.textContent = "";
+    window.location.href = "404.html";
+  });
+</script>
+
+<!-- MAIN FOOTER -->
+<div class="footer-main">
+
+  <!-- FOLLOW US -->
+  <div class="footer-col">
+    <h4>Follow Us</h4>
+
+  <ul class="social-list">
+
+<li>
+   <a href="404.html">
+<svg viewBox="0 0 24 24" class="icon">
+<path d="M22 12a10 10 0 1 0-11.6 9.9v-7h-2.1v-2.9h2.1V9.8c0-2.1 1.3-3.3 3.2-3.3.9 0 1.8.1 1.8.1v2h-1c-1 0-1.4.6-1.4 1.3v1.6h2.4l-.4 2.9h-2v7A10 10 0 0 0 22 12"/>
+</svg>
+</a>
+
+</li>
+
+<li>
+   <a href="404.html">
+<svg viewBox="0 0 24 24" class="icon">
+<path d="M18 2H21L14 10L22 22H15L9.5 14.5L3 22H0L7.5 13.5L0 2H7L12 9L18 2Z"/>
+</svg>
+</a>
+
+</li>
+
+<li>
+   <a href="404.html">
+<svg viewBox="0 0 24 24" class="icon">
+<path d="M7 2C4.2 2 2 4.2 2 7V17C2 19.8 4.2 22 7 22H17C19.8 22 22 19.8 22 17V7C22 4.2 19.8 2 17 2H7ZM12 7A5 5 0 1 1 12 17A5 5 0 0 1 12 7ZM18 5.5A1.2 1.2 0 1 1 18 7.9A1.2 1.2 0 0 1 18 5.5Z"/>
+</svg>
+</a>
+
+</li>
+
+<li>
+   <a href="404.html">
+<svg viewBox="0 0 24 24" class="icon">
+<path d="M6.9 6.9H3.7V20H6.9V6.9ZM5.3 3.3A1.9 1.9 0 1 0 5.3 7.1A1.9 1.9 0 0 0 5.3 3.3ZM20.3 11.6C20.3 8.5 18.6 7 16.4 7C15.1 7 14.4 7.7 14 8.2V7.2H10.9C11 7.9 10.9 20 10.9 20H14V12.8C14 12.4 14 12 14.1 11.7C14.3 11.2 14.8 10.7 15.5 10.7C16.4 10.7 16.8 11.4 16.8 12.5V20H20V12.2C20.3 11.9 20.3 11.7 20.3 11.6Z"/>
+</svg>
+
+   </a>
+
+</li>
+
+</ul>
+  </div>
+
+  <!-- QUICK LINKS -->
+  <div class="footer-col">
+    <h4>Quick Links</h4>
+    <ul class="footer-links">
+      <li><a href="404.html">About Us</a></li>
+      <li><a href="404.html">Money Transfer</a></li>
+      <li><a href="404.html">Our Features</a></li>
+      <li><a href="404.html">Frequent Questions</a></li>
+      <li><a href="404.html">Comparing Price</a></li>
+    </ul>
+  </div>
+
+  <!-- RESOURCES -->
+  <div class="footer-col">
+    <h4>Resources</h4>
+    <ul class="footer-links">
+      <li><a href="404.html">Contact Us</a></li>
+      <li><a href="404.html">Download App</a></li>
+      <li><a href="404.html">Our Team</a></li>
+      <li><a href="404.html">News & Blog</a></li>
+      <li><a href="404.html">Customer Review</a></li>
+    </ul>
+  </div>
+
+  <!-- GET IN TOUCH -->
+  <div class="footer-col">
+    <h4>Get In Touch</h4>
+    <ul class="contact-list">
+      <li><strong>Location</strong><p>New York, USA</p></li>
+      <li><strong>Email</strong><p>hello@stackly.com</p></li>
+      <li><strong>Phone</strong><p>+91 9876543210</p></li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- BOTTOM BAR -->
+<div class="footer-bottom">
+  <p>© Stackly. All Rights Reserved</p>
+  <div class="policies">
+    <a href="404.html">Privacy Policy</a>
+    <span>•</span>
+    <a href="404.html">Terms & Conditions</a>
+  </div>
+</div>
+</footer>
+<script>
+
+    
+const scrollBtn = document.getElementById("scrollTopBtn");
+
+/* show after scrolling */
+window.addEventListener("scroll", () => {
+if (window.scrollY > 300) {
+scrollBtn.classList.add("show");
+} else {
+scrollBtn.classList.remove("show");
+}
+});
+
+/* scroll to top */
+scrollBtn.addEventListener("click", () => {
+window.scrollTo({
+top: 0,
+behavior: "smooth"
+});
+});
+
+</script>
+
+
+<button id="scrollTopBtn">
+  <svg viewBox="0 0 24 24">
+    <path d="M12 5l7 7-1.4 1.4L13 9.8V20h-2V9.8L6.4 13.4 5 12z"/>
+  </svg>
+</button>
+
+
+
+<script>
+
+    // dropdown desktop
+document.querySelectorAll(".dropdown").forEach(drop=>{
+drop.querySelector(".nav-btn").addEventListener("click",(e)=>{
+document.querySelectorAll(".dropdown").forEach(d=>{
+if(d!==drop)d.classList.remove("open");
+});
+drop.classList.toggle("open");
+e.stopPropagation();
+});
+});
+
+document.addEventListener("click",()=>{
+document.querySelectorAll(".dropdown").forEach(d=>d.classList.remove("open"));
+});
+
+// mobile menu
+hamburger.onclick=()=>mobile.classList.add("active");
+close.onclick=()=>mobile.classList.remove("active");
+
+
+
+// open mobile menu
+hamburger.onclick=()=>{
+mobileMenu.classList.add("active");
+}
+
+// close mobile
+closeMenu.onclick=()=>{
+mobileMenu.classList.remove("active");
+}
+
+// mobile dropdown accordion
+document.querySelectorAll(".m-title").forEach(title=>{
+title.addEventListener("click",()=>{
+const parent=title.parentElement;
+
+document.querySelectorAll(".m-item").forEach(i=>{
+if(i!==parent)i.classList.remove("open");
+});
+
+parent.classList.toggle("open");
+});
+});
+
+
+
+
+document.getElementById("registerForm").addEventListener("submit",function(e){
+
+const pass=this.querySelector("input[type=password]").value;
+
+const strong=/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}$/;
+
+if(!strong.test(pass)){
+e.preventDefault();
+alert("Password must contain uppercase, lowercase, number and symbol.");
+}
+
+});
+
+
+
+
+</script>
+
+
+<script src="main.js"></script>
+</body>
+</html>
